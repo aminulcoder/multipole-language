@@ -1,7 +1,7 @@
 <?php
-return [
+    return [
 
-    'content' => 'Hola desarrolladores, bienvenidos a Sunflower Education',
-];
+        'content' => 'Hola desarrolladores, bienvenidos a Sunflower Education',
+    ];
 
 ?>

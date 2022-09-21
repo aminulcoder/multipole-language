@@ -3,6 +3,7 @@
 use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,4 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('lang',[LanguageController::class , 'lang']);
-Route::get('lang/change',[LanguageController::class,'lang_Change'])->name('lang.Change');
+Route::get('lang/change',[LanguageController::class,'lang_Change'])->name('lang.change');
